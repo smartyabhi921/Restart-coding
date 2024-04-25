@@ -1,0 +1,16 @@
+import java.util.*;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter to find table of number");
+        int a = sc.nextInt();
+        for(int i=1; i <=10 ; i++ )
+        {
+            n = a*i;
+           System.out.println(n);
+        }
+       
+    }
+}
