@@ -1,0 +1,14 @@
+Basic formulas to use in code for future 
+
+
+1. HCF AND LCM =  if(a%i==0 && b%i==0) temp = i ;
+and 
+LCM = a*b/HCF(temp) 
+
+2. Palindrom = (number != 0) {
+            int remainder = number % 10;
+            reversedNumber = reversedNumber * 10 + remainder;
+            number /= 10;
+
+
+
