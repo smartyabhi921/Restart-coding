@@ -1,0 +1,25 @@
+
+fibonacci series in java
+import java.util.*;
+
+class Abhi {
+    
+    public static void main(String args[]){
+    
+    int temp = 0;  
+    int s=1;
+    int g;
+    Scanner sc = new Scanner(System.in);
+    
+    int a = sc.nextInt();
+    for(int i =1 ; i <=a ; i++){
+     
+    g = temp+s; 
+    temp = s;
+    s = g;
+      System.out.println(g);
+    }
+ 
+   
+    }
+}
